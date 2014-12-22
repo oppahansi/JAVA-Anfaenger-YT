@@ -1,10 +1,11 @@
 *.class
+*.xml
+*.iml
+*.project
 *.classpath
 .classpath/
-*.project
 .project/
 .idea/
-*.iml
 /bin
 /out
 *out/
