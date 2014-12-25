@@ -60,7 +60,7 @@ public class ByteShortIntLong {
       System.out.println("longMinValue hat den Wert: " + longMinValue);
       System.out.println("longMaxValue hat den Wert: " + longMaxValue);
 
-      
+
       /*
        * Uebung 1:
        * Erstelle von jedem hier genannten Datentyp eine neue Variable,

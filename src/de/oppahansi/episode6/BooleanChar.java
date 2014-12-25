@@ -35,19 +35,11 @@ public class BooleanChar {
     * (Optional: Gebe diese Variable in der Konsole aus.)
     */
 
-      boolean testBoolean = true;
-      System.out.println("testBoolean hat den Wert: " + testBoolean);
-
    /*
     * Uebung 2:
     * Erstelle 2 neue char Variablen und initialisiere die Variablen mit beliebigen
     * Zeichen.
     * (Optional: Gebe diese Variablen in der Konsole aus.)
     */
-
-      char initialeVorname = 'A';
-      char initialeNachname = 'S';
-      System.out.println("initialeVorname hat den Wert: " + initialeVorname);
-      System.out.println("intialeNachname hat den Wert: " + initialeNachname);
    }
 }
