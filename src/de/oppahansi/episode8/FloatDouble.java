@@ -38,7 +38,7 @@ public class FloatDouble {
       /*
        * Uebung 2:
        * Kann man bei den float-Variablen z.B. bei der testFloatKomma-Variable
-       * das f bei 1.0f weglassen? (Erkläre es)
+       * das F bei 1.0F weglassen(Zeile 14)? (Erkläre es)
        */
    }
 }
