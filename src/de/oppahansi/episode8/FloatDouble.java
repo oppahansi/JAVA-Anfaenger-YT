@@ -11,7 +11,7 @@ public class FloatDouble {
 
       float floatMinValue = Float.MIN_VALUE;
       float floatMaxValue = Float.MAX_VALUE;
-      float testFloatKomma = 1.0f;
+      float testFloatKomma = 1.0F;
 
       System.out.println("floatMinValue hat den Wert: " + floatMinValue);
       System.out.println("floatMaxValue hat den Wert: " + floatMaxValue);
