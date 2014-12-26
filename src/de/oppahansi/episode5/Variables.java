@@ -3,7 +3,7 @@ package de.oppahansi.episode5;
 public class Variables {
    public static void main(String[] args){
 
-      /*
+      /**
        * Syntax - Variablen:
        *
        * Datentyp variablenName;                         (Deklaration)
@@ -34,7 +34,7 @@ public class Variables {
       System.out.println("Unsere long Variable hat den Wert: " + longVariable);
 
 
-      /*
+      /**
        * Uebung 1:
        * Was passiert, wenn man die Zeile 28 auskommentiert und die Variable
        * "intVariable" dadurch nicht initialisiert?

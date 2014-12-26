@@ -4,7 +4,7 @@ public class BooleanChar {
 
    public static void main(String[] args) {
 
-      /*
+      /**
        * boolean
        */
       boolean boolTrue = true;
@@ -13,7 +13,7 @@ public class BooleanChar {
       System.out.println("boolTrue hat den Wert: " + boolTrue);
       System.out.println("boolFalse hat den Wert: " + boolFalse);
 
-      /*
+      /**
        * char
        */
       char charA = 'A';
@@ -28,14 +28,14 @@ public class BooleanChar {
       System.out.println("charTest hat den Wert: " + charTest);
       System.out.println("charLargest hat den Wert: " + charLargest);
 
-   /*
+   /**
     * Uebung 1:
     * Erstelle eine neue boolean Variable mit einem beliegen Namen und initialisiere
     * diese Variable mit dem Wert "true".
     * (Optional: Gebe diese Variable in der Konsole aus.)
     */
 
-   /*
+   /**
     * Uebung 2:
     * Erstelle 2 neue char Variablen und initialisiere die Variablen mit beliebigen
     * Zeichen.

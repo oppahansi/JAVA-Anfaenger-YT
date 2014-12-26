@@ -3,7 +3,7 @@ package de.oppahansi.episode9;
 public class ConvertingTypeCasting {
 
    public static void main(String[] args) {
-      /*
+      /**
          Konventierung und Type-Casting mit primitiven Datentypen
 
          Konventierung, ohne Datenverlust
@@ -99,14 +99,14 @@ public class ConvertingTypeCasting {
 
       //<<------------------------------------------------------------>>//
 
-      /*
+      /**
        * Uebung 1:
        * Vertausche die Reihenfolge von den Konventierungen beim upcasting, z.B.:
        * byte -> int / short -> long
        * und schaue was dann passiert!
        */
 
-      /*
+      /**
        * Uebung 2:
        * Vertausche die Reihenfolge von den Konventierungen beim downcasting, z.B.:
        * long -> short / int -> byte
