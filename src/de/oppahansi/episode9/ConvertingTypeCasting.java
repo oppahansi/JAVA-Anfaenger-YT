@@ -75,8 +75,8 @@ public class ConvertingTypeCasting {
 
       System.out.println("(Startwert) Longwert: " + longConvertValue);
 
-      intTargetValue = (int) longConvertValue;                    // long -> int
-      System.out.println("Intwert vom long: " + intTargetValue);
+      shortTargetValue = (short) longConvertValue;                    // long -> int
+      System.out.println("Shortwert vom long: " + shortTargetValue);
 
       shortTargetValue = (short) intTargetValue;                  // int -> short
       System.out.println("Shortwert vom int: " + shortTargetValue);
