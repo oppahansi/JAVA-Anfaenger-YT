@@ -26,7 +26,7 @@ public class WhileLoop {
       /**
        * Uebung 1:
        * Verwandle diese while-Schleife in eine for-Schleife.
-       * Verwandle eine der for-Schleifen aus Episode 15 in eine
+       * Verwandle eine der for-Schleifen aus Episode 16 in eine
        * while-Schleife.
        */
 
