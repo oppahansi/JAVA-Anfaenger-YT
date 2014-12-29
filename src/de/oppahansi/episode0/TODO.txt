@@ -1,0 +1,91 @@
+Gesamtueberblick:
+
+Behandelte Themen:
+- Hello World Programm
+- Variablen
+- Datentypen
+   - primitive Datentypen
+      - boolean
+      - char
+      - short
+      - byte
+      - int
+      - long
+      - float
+      - double
+   - komplexe Datentypen
+      - String #1
+- primitive Datentypumwandlungen / Konvertierungen
+- Operatoren
+   - aritmetische Operatoren
+   - Vergleichs-Operatoren
+   - Bitwise-Operatoren / bitlogische Operatoren
+   - Zuweisungs-Operatoren
+- Kontrollstrukturen
+   - Schleifen
+      - for-Loop
+      - while-Loop
+      - do-while-Loop
+   - Bedingungen / Anweisungen
+      - if, if...else, if...else if...else
+      - switch
+
+<<------------------------------------------------------------->>
+
+Bevorstehende Themen:
+
+- Datentypen
+   - String #2
+   - Arrays
+   - selbstgemachte komplexe Datentypen
+   - weitere Beispiele
+- komplexe Datentypumwandlungen / Konvertierungen
+- Konventionen
+- Objektorientierung
+- Operatoren
+   - conditional / ternary
+   - instanceof
+   - new
+   - .
+   - (equals)
+- Rekursion
+- Keywords
+   - break
+   - continue
+   - class
+   - static
+   - final
+   - abstract
+   - null
+   - return
+   - super
+   - void
+   - Sichtbarkeitsmodifikatoren
+      - public
+      - private
+      - protected
+- Klassen
+- Objekte
+- Instanzen
+- Methoden
+- Packages
+- Vererbung
+- Interfaces
+- Collections
+- Ein- und Ausgaben
+- Escapesequences
+- Exceptions
+- Dateien schreiben und lesen (.txt)
+- Datum
+- Überladen von Methoden
+- Datenstrukturen
+   - Enum
+   - Stack
+   - Listen
+   - HashMaps
+
+- GUI-Programmierung
+
+- Spiele-Programmierung
+
+- Design-Pattern am Beispiel des MVC Models
