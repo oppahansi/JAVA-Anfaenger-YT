@@ -29,6 +29,9 @@ Behandelte Themen:
    - Bedingungen / Anweisungen
       - if, if...else, if...else if...else
       - switch
+- Keywords
+   - break
+   - continue
 
 <<------------------------------------------------------------->>
 
@@ -50,8 +53,6 @@ Bevorstehende Themen:
    - (equals)
 - Rekursion
 - Keywords
-   - break
-   - continue
    - class
    - static
    - final
