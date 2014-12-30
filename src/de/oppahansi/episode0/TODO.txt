@@ -15,12 +15,15 @@ Behandelte Themen:
       - double
    - komplexe Datentypen
       - String #1
+      - selbstgemachte komplexe Datentypen
 - primitive Datentypumwandlungen / Konvertierungen
 - Operatoren
    - aritmetische Operatoren
    - Vergleichs-Operatoren
    - Bitwise-Operatoren / bitlogische Operatoren
    - Zuweisungs-Operatoren
+   - new
+   - .
 - Kontrollstrukturen
    - Schleifen
       - for-Loop
@@ -32,6 +35,19 @@ Behandelte Themen:
 - Keywords
    - break
    - continue
+   - void
+   - null
+   - return
+   - class
+   - Sichtbarkeitsmodifikatoren
+         - public
+         - private
+- Objektorientierung
+- Klassen
+- Objekte
+- Instanzen
+- Methoden
+- Packages
 
 <<------------------------------------------------------------->>
 
@@ -40,36 +56,20 @@ Bevorstehende Themen:
 - Datentypen
    - String #2
    - Arrays
-   - selbstgemachte komplexe Datentypen
-   - weitere Beispiele
 - komplexe Datentypumwandlungen / Konvertierungen
 - Konventionen
-- Objektorientierung
 - Operatoren
    - conditional / ternary
    - instanceof
-   - new
-   - .
    - (equals)
 - Rekursion
 - Keywords
-   - class
    - static
    - final
    - abstract
-   - null
-   - return
    - super
-   - void
    - Sichtbarkeitsmodifikatoren
-      - public
-      - private
       - protected
-- Klassen
-- Objekte
-- Instanzen
-- Methoden
-- Packages
 - Vererbung
 - Interfaces
 - Collections
@@ -78,7 +78,8 @@ Bevorstehende Themen:
 - Exceptions
 - Dateien schreiben und lesen (.txt)
 - Datum
-- Überladen von Methoden
+- Methoden / Überladen von Methoden
+- Parameter
 - Datenstrukturen
    - Enum
    - Stack

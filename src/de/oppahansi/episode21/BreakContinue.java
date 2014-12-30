@@ -42,6 +42,7 @@ public class BreakContinue {
          System.out.println("i is not 5 but is " + i);
       }
 
+      /*
       counter = 0;
       while (counter < 10) {
          if(counter == 5) {
@@ -51,6 +52,6 @@ public class BreakContinue {
          System.out.println("i is not 5 but is " + counter);
          counter++;
       }
+      */
    }
-
 }
