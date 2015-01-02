@@ -53,16 +53,7 @@ Behandelte Themen:
 
 Bevorstehende Themen:
 
-- Datentypen
-   - String #2
-   - Arrays
-- komplexe Datentypumwandlungen / Konvertierungen
-- Konventionen
-- Operatoren
-   - conditional / ternary
-   - instanceof
-   - (equals)
-- Rekursion
+- Parameter
 - Keywords
    - static
    - final
@@ -70,16 +61,25 @@ Bevorstehende Themen:
    - super
    - Sichtbarkeitsmodifikatoren
       - protected
+- Operatoren
+   - conditional / ternary
+   - instanceof
+   - (equals)
+- Datentypen
+   - String #2
+   - Arrays
+- Ein- und Ausgaben
 - Vererbung
+- komplexe Datentypumwandlungen / Konvertierungen
+- Konventionen
+- Rekursion
 - Interfaces
 - Collections
-- Ein- und Ausgaben
 - Escapesequences
 - Exceptions
 - Dateien schreiben und lesen (.txt)
 - Datum
 - Methoden / Überladen von Methoden
-- Parameter
 - Datenstrukturen
    - Enum
    - Stack
