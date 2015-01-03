@@ -46,19 +46,20 @@ Behandelte Themen:
 - Klassen
 - Objekte
 - Instanzen
-- Methoden
+- Methoden / Überladen von Methoden
 - Packages
-
-<<------------------------------------------------------------->>
-
-Bevorstehende Themen:
-
 - Parameter
 - Keywords
    - static
    - final
    - abstract
    - super
+
+<<------------------------------------------------------------->>
+
+Bevorstehende Themen:
+- Vererbung
+- Keywords
    - Sichtbarkeitsmodifikatoren
       - protected
 - Operatoren
@@ -69,7 +70,6 @@ Bevorstehende Themen:
    - String #2
    - Arrays
 - Ein- und Ausgaben
-- Vererbung
 - komplexe Datentypumwandlungen / Konvertierungen
 - Konventionen
 - Rekursion
@@ -79,7 +79,6 @@ Bevorstehende Themen:
 - Exceptions
 - Dateien schreiben und lesen (.txt)
 - Datum
-- Methoden / Überladen von Methoden
 - Datenstrukturen
    - Enum
    - Stack
