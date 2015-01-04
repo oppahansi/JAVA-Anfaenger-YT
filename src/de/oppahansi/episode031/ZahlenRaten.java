@@ -3,7 +3,7 @@
  * Created for the JAVA Anfaenger Tutorial on Youtube.
  */
 
-package de.oppahansi.episode31;
+package de.oppahansi.episode031;
 
 import java.util.Random;
 import java.util.Scanner;
