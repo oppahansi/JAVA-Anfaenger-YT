@@ -56,11 +56,11 @@ Behandelte Themen:
    - final
 - Ein- und Ausgaben
 - Escapesequences
+- Rekursion
 
 <<------------------------------------------------------------->>
 
 Bevorstehende Themen:
-- Rekursion
 - Vererbung
 - Keywords
    - abstract
