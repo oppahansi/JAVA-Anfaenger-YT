@@ -16,6 +16,7 @@ Behandelte Themen:
    - komplexe Datentypen
       - String #1
       - selbstgemachte komplexe Datentypen
+      - Arrays
 - primitive Datentypumwandlungen / Konvertierungen
 - Operatoren
    - aritmetische Operatoren
@@ -53,39 +54,35 @@ Behandelte Themen:
 - Keywords
    - static
    - final
-
+- Objektgleichheit / Objektinhalt vergleichen
 
 <<------------------------------------------------------------->>
 
 Bevorstehende Themen:
+- Escapesequences
+- Ein- und Ausgaben
+- Rekursion
 - Vererbung
 - Keywords
    - abstract
    - super
    - Sichtbarkeitsmodifikatoren
       - protected
+- Interfaces
 - Operatoren
-   - conditional / ternary
    - instanceof
    - (equals)
-- Datentypen
-   - String #2
-   - Arrays
-- Escapesequences
-- Ein- und Ausgaben
 - komplexe Datentypumwandlungen / Konvertierungen
-- Konventionen
-- Rekursion
-- Interfaces
 - Collections
-- Exceptions
-- Dateien schreiben und lesen (.txt)
-- Datum
 - Datenstrukturen
    - Enum
    - Stack
    - Listen
    - HashMaps
+- Konventionen
+- Datum
+- Exceptions
+- Dateien schreiben und lesen (.txt)
 
 - GUI-Programmierung
 

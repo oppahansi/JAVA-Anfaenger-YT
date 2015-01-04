@@ -49,5 +49,4 @@ public class Ternary {
    public static int testTernaryAsIntInMethod() {
       return 5 > 3 ? 42 : 1337;
    }
-
 }
