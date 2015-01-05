@@ -61,6 +61,8 @@ Behandelte Themen:
 - Escapesequences
 - Rekursion
 - Vererbung
+- Datenstrukturen
+   - einfach verkettete Liste
 
 <<------------------------------------------------------------->>
 
@@ -75,7 +77,7 @@ Bevorstehende Themen:
 - Datenstrukturen
    - Enum
    - Stack
-   - Listen
+   - LinkedList
    - HashMaps
 - Konventionen
 - Datum
