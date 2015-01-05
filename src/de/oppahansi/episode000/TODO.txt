@@ -41,9 +41,12 @@ Behandelte Themen:
    - null
    - return
    - class
+   - abstract
+   - super
    - Sichtbarkeitsmodifikatoren
          - public
          - private
+         - protected
 - Objektorientierung
 - Klassen
 - Objekte
@@ -57,16 +60,11 @@ Behandelte Themen:
 - Ein- und Ausgaben
 - Escapesequences
 - Rekursion
+- Vererbung
 
 <<------------------------------------------------------------->>
 
 Bevorstehende Themen:
-- Vererbung
-- Keywords
-   - abstract
-   - super
-   - Sichtbarkeitsmodifikatoren
-      - protected
 - Interfaces
 - Objektgleichheit / Objektinhalt vergleichen
 - Operatoren
