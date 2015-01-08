@@ -26,8 +26,16 @@ public class List {
       }
    }
 
-   public void add(int index, ListElement newListElement) {
+   public void add(int positionInList, ListElement newListElement) {
+      if(positionInList <= 0 || positionInList > size()) {
 
+      }
+      else {
+         ListElement previousListElement = getListElementAt(positionInList - 1);
+         ListElement nextListElement = getListElementAt(positionInList);
+         previousListElement.setNextListElement(newListElement);
+         previousListElement.getNextListElement().setNextListElement(nextListElement);
+      }
    }
 
    public void clear() {
@@ -35,11 +43,36 @@ public class List {
    }
 
    public ListElement getListElementAt(int positionInList) {
-      return new ListElement();
+      if(positionInList <= 0 || positionInList > size()) {
+         return null;
+      }
+      else {
+         ListElement helper = listHead;
+         int currentPosition = 1;
+         while (currentPosition < positionInList) {
+            helper = helper.getNextListElement();
+            currentPosition++;
+         }
+         return helper;
+      }
    }
 
    public int positionOf(ListElement listElement) {
-      return 0;
+      if(listElement == null) {
+         return -1;
+      }
+      else {
+         ListElement helper = listHead;
+         int currentPosition = 1;
+         while(helper != null) {
+            if(helper == listElement) {
+               break;
+            }
+            helper = helper.getNextListElement();
+            currentPosition++;
+         }
+         return (currentPosition > size()) ? -1 : currentPosition;
+      }
    }
 
    public boolean isListEmpty() {
@@ -47,7 +80,16 @@ public class List {
    }
 
    public void removeListElementAt(int positionInList) {
+      if(positionInList <= 0 || positionInList > size()) {
 
+      }
+      else if(positionInList == 1) {
+         listHead = listHead.getNextListElement();
+      }
+      else {
+         ListElement previousListElement = getListElementAt(positionInList - 1);
+         previousListElement.setNextListElement(getListElementAt(positionInList + 1));
+      }
    }
 
    public int size() {
@@ -73,8 +115,20 @@ public class List {
       list.add(new ListElement("4"));
       list.add(new ListElement("5"));
       list.listToString(list);
-      System.out.println();
-      System.out.println("List size is : " + list.size());
+
+      System.out.println("\n\nList size is : " + list.size());
+
+      System.out.println("\nList element at position 3 is: " + list.getListElementAt(3).getListElementValue());
+
+      System.out.println("\nList after adding a new elemnt at position 4:");
+      list.add(4, new ListElement("6"));
+      list.listToString(list);
+
+      System.out.println("\n\nList after deleting the 5th list element: ");
+      list.removeListElementAt(1);
+      list.listToString(list);
+
+      System.out.println("\n\nList element 6 is on position: " + list.positionOf(list.getListElementAt(3)));
 
    }
 
