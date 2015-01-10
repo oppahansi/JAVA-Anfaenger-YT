@@ -3,10 +3,11 @@
  * Created for the JAVA Anfaenger Tutorial on Youtube.
  */
 
-package de.oppahansi.episode038;
+package de.oppahansi.episode040;
 
-public interface TestInterfaceToExtend {
+public interface Weapon {
 
-   boolean isExtended();
+   int getDamage();
 
+   String getType();
 }
