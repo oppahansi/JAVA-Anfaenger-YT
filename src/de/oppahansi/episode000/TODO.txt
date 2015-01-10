@@ -64,6 +64,7 @@ Behandelte Themen:
 - Datenstrukturen
    - einfach verkettete Liste
 - Interfaces
+- Polymorphie (mit Vererbung und Interfaces)
 
 <<------------------------------------------------------------->>
 
@@ -84,8 +85,8 @@ Bevorstehende Themen:
 - Exceptions
 - Dateien schreiben und lesen (.txt)
 
-- GUI-Programmierung
+(- GUI-Programmierung)
 
-- Spiele-Programmierung
+(- Spiele-Programmierung)
 
-- Design-Pattern am Beispiel des MVC Models
+(- Design-Pattern am Beispiel des MVC Models)
