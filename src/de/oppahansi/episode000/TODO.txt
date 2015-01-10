@@ -63,11 +63,11 @@ Behandelte Themen:
 - Vererbung
 - Datenstrukturen
    - einfach verkettete Liste
+- Interfaces
 
 <<------------------------------------------------------------->>
 
 Bevorstehende Themen:
-- Interfaces
 - Objektgleichheit / Objektinhalt vergleichen
 - Operatoren
    - instanceof
