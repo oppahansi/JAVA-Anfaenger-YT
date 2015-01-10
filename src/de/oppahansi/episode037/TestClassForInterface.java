@@ -1,4 +1,4 @@
-package de.oppahansi.episode37;
+package de.oppahansi.episode037;
 
 public class TestClassForInterface implements TestInterface {
 

@@ -3,7 +3,7 @@
  * Created for the JAVA Anfaenger Tutorial on Youtube.
  */
 
-package de.oppahansi.episode36;
+package de.oppahansi.episode036;
 
 public class ListElement {
 
