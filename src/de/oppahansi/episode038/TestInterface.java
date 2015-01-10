@@ -1,4 +1,4 @@
-package de.oppahansi.episode037;
+package de.oppahansi.episode038;
 
 public interface TestInterface extends TestInterfaceToExtend {
 
