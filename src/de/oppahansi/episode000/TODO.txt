@@ -65,14 +65,14 @@ Behandelte Themen:
    - einfach verkettete Liste
 - Interfaces
 - Polymorphie (mit Vererbung und Interfaces)
-
-<<------------------------------------------------------------->>
-
-Bevorstehende Themen:
 - Objektgleichheit / Objektinhalt vergleichen
 - Operatoren
    - instanceof
    - (equals)
+
+<<------------------------------------------------------------->>
+
+Bevorstehende Themen:
 - komplexe Datentypumwandlungen / Konvertierungen
 - Collections
 - Datenstrukturen
