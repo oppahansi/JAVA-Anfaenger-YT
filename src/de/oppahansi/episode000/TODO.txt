@@ -72,6 +72,7 @@ Behandelte Themen:
    - (equals)
 - Datenstrukturen
    - Enum
+- Konventionen
 
 <<------------------------------------------------------------->>
 
@@ -79,10 +80,8 @@ Bevorstehende Themen:
 - komplexe Datentypumwandlungen / Konvertierungen
 - Collections
 - Datenstrukturen
-   - Stack
    - LinkedList
    - HashMaps
-- Konventionen
 - Datum
 - Exceptions
 - Dateien schreiben und lesen (.txt)
