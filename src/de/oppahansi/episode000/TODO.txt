@@ -70,6 +70,8 @@ Behandelte Themen:
 - Operatoren
    - instanceof
    - (equals)
+- Datenstrukturen
+   - Enum
 
 <<------------------------------------------------------------->>
 
@@ -77,7 +79,6 @@ Bevorstehende Themen:
 - komplexe Datentypumwandlungen / Konvertierungen
 - Collections
 - Datenstrukturen
-   - Enum
    - Stack
    - LinkedList
    - HashMaps
