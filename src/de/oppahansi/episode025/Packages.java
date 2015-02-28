@@ -7,21 +7,21 @@ package de.oppahansi.episode025;
 
 public class Packages {
 
-   /**
-    Package structure - relative to src folder
+  /**
+   Package structure - relative to src folder
 
-    +---YouTubeTut
-       |
-       +---src
-           |
-           +---de
-               |
-               +---oppahansi
-                    |
-                   ...
-                    +---episode24
-                    |
-                    +---episode25
+   +---YouTubeTut
+   |
+   +---src
+   |
+   +---de
+   |
+   +---oppahansi
+   |
+   ...
+   +---episode24
+   |
+   +---episode25
 
-    */
+   */
 }

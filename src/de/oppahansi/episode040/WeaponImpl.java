@@ -7,21 +7,21 @@ package de.oppahansi.episode040;
 
 public abstract class WeaponImpl implements Weapon {
 
-   private int damage;
-   private String type;
+  private int damage;
+  private String type;
 
-   public WeaponImpl(String type, int damage) {
-      this.type = type;
-      this.damage = damage;
-   }
+  public WeaponImpl(String type, int damage) {
+    this.type = type;
+    this.damage = damage;
+  }
 
-   @Override
-   public int getDamage() {
-      return damage;
-   }
+  @Override
+  public int getDamage() {
+    return damage;
+  }
 
-   @Override
-   public String getType() {
-      return type;
-   }
+  @Override
+  public String getType() {
+    return type;
+  }
 }

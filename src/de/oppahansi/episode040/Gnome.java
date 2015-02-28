@@ -5,14 +5,14 @@
 
 package de.oppahansi.episode040;
 
-public class Gnome  extends Player {
+public class Gnome extends Player {
 
-   public Gnome(final String name) {
-      super(name, new Dagger());
-   }
+  public Gnome(final String name) {
+    super(name, new Dagger());
+  }
 
-   @Override
-    public String getMovingAnimation() {
-      return "Eigenartig und lustig!";
-   }
+  @Override
+  public String getMovingAnimation() {
+    return "Eigenartig und lustig!";
+  }
 }

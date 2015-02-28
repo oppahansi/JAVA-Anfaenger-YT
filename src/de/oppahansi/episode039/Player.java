@@ -7,15 +7,15 @@ package de.oppahansi.episode039;
 
 public abstract class Player {
 
-   private String name;
+  private String name;
 
-   public Player(String name) {
-      this.name = name;
-   }
+  public Player(String name) {
+    this.name = name;
+  }
 
-   public String getName() {
-      return name;
-   }
+  public String getName() {
+    return name;
+  }
 
-   public abstract String getMovingAnimation();
+  public abstract String getMovingAnimation();
 }

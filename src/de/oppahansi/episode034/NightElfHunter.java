@@ -7,14 +7,14 @@ package de.oppahansi.episode034;
 
 public class NightElfHunter extends NightElf {
 
-   private String classSkillBonus;
+  private String classSkillBonus;
 
-   public NightElfHunter(String name) {
-      super(name);
-      classSkillBonus = "Bow +25";
-   }
+  public NightElfHunter(String name) {
+    super(name);
+    classSkillBonus = "Bow +25";
+  }
 
-   public String getClassSkillBonus() {
-      return classSkillBonus;
-   }
+  public String getClassSkillBonus() {
+    return classSkillBonus;
+  }
 }

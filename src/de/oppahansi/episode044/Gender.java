@@ -6,6 +6,6 @@
 package de.oppahansi.episode044;
 
 public enum Gender {
-   MALE,
-   FEMALE
+  MALE,
+  FEMALE
 }

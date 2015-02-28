@@ -7,7 +7,7 @@ package de.oppahansi.episode040;
 
 public class Dagger extends WeaponImpl {
 
-   public Dagger() {
-      super("Dolch", 15);
-   }
+  public Dagger() {
+    super("Dolch", 15);
+  }
 }

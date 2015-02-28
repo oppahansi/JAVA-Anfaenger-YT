@@ -7,7 +7,7 @@ package de.oppahansi.episode040;
 
 public class Sword extends WeaponImpl {
 
-   public Sword() {
-      super("Schwert", 42);
-   }
+  public Sword() {
+    super("Schwert", 42);
+  }
 }

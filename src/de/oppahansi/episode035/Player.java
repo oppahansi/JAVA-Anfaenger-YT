@@ -7,19 +7,19 @@ package de.oppahansi.episode035;
 
 public abstract class Player {
 
-   protected int level;
-   protected String name;
+  protected int level;
+  protected String name;
 
-   public Player(String name) {
-      level = 1;
-      this.name = name;
-   }
+  public Player(String name) {
+    level = 1;
+    this.name = name;
+  }
 
-   abstract void setLevel(int level);
+  abstract int getLevel();
 
-   abstract int getLevel();
+  abstract void setLevel(int level);
 
-   abstract void setName(String name);
+  abstract String getName();
 
-   abstract String getName();
+  abstract void setName(String name);
 }

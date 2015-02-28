@@ -7,7 +7,7 @@ package de.oppahansi.episode040;
 
 public interface Weapon {
 
-   int getDamage();
+  int getDamage();
 
-   String getType();
+  String getType();
 }

@@ -7,36 +7,36 @@ package de.oppahansi.episode036;
 
 public class ListElement {
 
-   private ListElement nextListElement;
-   private String listElementValue;
+  private ListElement nextListElement;
+  private String listElementValue;
 
-   public ListElement() {
-      nextListElement = null;
-      listElementValue = "default";
-   }
+  public ListElement() {
+    nextListElement = null;
+    listElementValue = "default";
+  }
 
-   public ListElement(String listElementValue) {
-      nextListElement = null;
-      this.listElementValue = listElementValue;
-   }
+  public ListElement(String listElementValue) {
+    nextListElement = null;
+    this.listElementValue = listElementValue;
+  }
 
-   public void setNextListElement(ListElement nextListElement) {
-      this.nextListElement = nextListElement;
-   }
+  public ListElement getNextListElement() {
+    return nextListElement;
+  }
 
-   public ListElement getNextListElement() {
-      return nextListElement;
-   }
+  public void setNextListElement(ListElement nextListElement) {
+    this.nextListElement = nextListElement;
+  }
 
-   public void setListElementValue(String listElementValue) {
-      this.listElementValue = listElementValue;
-   }
+  public String getListElementValue() {
+    return listElementValue;
+  }
 
-   public String getListElementValue() {
-      return listElementValue;
-   }
+  public void setListElementValue(String listElementValue) {
+    this.listElementValue = listElementValue;
+  }
 
-   public String toString() {
-      return "[" + listElementValue + "]->";
-   }
+  public String toString() {
+    return "[" + listElementValue + "]->";
+  }
 }

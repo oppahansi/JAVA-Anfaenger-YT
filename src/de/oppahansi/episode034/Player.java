@@ -7,27 +7,27 @@ package de.oppahansi.episode034;
 
 public class Player {
 
-   private int level;
-   private String name;
+  private int level;
+  private String name;
 
-   public Player(String name) {
-      level = 1;
-      this.name = name;
-   }
+  public Player(String name) {
+    level = 1;
+    this.name = name;
+  }
 
-   public void setLevel(int level) {
-      this.level = level;
-   }
+  public int getLevel() {
+    return level;
+  }
 
-   public int getLevel() {
-      return level;
-   }
+  public void setLevel(int level) {
+    this.level = level;
+  }
 
-   public void setName(String name) {
-      this.name = name;
-   }
+  public String getName() {
+    return name;
+  }
 
-   public String getName() {
-      return name;
-   }
+  public void setName(String name) {
+    this.name = name;
+  }
 }

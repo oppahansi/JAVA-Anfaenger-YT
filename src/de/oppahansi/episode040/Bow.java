@@ -6,7 +6,8 @@
 package de.oppahansi.episode040;
 
 public class Bow extends WeaponImpl {
-   public Bow() {
-      super("Bogen", 25);
-   }
+
+  public Bow() {
+    super("Bogen", 25);
+  }
 }

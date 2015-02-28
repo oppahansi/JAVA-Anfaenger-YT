@@ -7,26 +7,26 @@ package de.oppahansi.episode040;
 
 public abstract class Player {
 
-   private String name;
-   private Weapon weapon;
+  private String name;
+  private Weapon weapon;
 
-   public Player(String name, Weapon weapon) {
-      this.name = name;
-      this.weapon = weapon;
-   }
+  public Player(String name, Weapon weapon) {
+    this.name = name;
+    this.weapon = weapon;
+  }
 
-   public String getName() {
-      return name;
-   }
+  public String getName() {
+    return name;
+  }
 
-   public String getWeaponType() {
-      return weapon.getType();
-   }
+  public String getWeaponType() {
+    return weapon.getType();
+  }
 
-   public int getWeaponDamage() {
-      return weapon.getDamage();
-   }
+  public int getWeaponDamage() {
+    return weapon.getDamage();
+  }
 
-   public abstract String getMovingAnimation();
+  public abstract String getMovingAnimation();
 
 }

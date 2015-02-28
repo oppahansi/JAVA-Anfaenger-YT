@@ -7,14 +7,14 @@ package de.oppahansi.episode034;
 
 public class NightElf extends Player {
 
-   private String raceBonus;
+  private String raceBonus;
 
-   public NightElf(String name) {
-      super(name);
-      raceBonus = "Nature resistance +25";
-   }
+  public NightElf(String name) {
+    super(name);
+    raceBonus = "Nature resistance +25";
+  }
 
-   public String getRaceBonus() {
-      return raceBonus;
-   }
+  public String getRaceBonus() {
+    return raceBonus;
+  }
 }

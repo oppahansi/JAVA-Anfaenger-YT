@@ -7,22 +7,22 @@ package de.oppahansi.episode018;
 
 public class DoWhileLoop {
 
-   public static void main(String[] args) {
-      /**
-       * The do-while-Loop - Syntax
-       *
-       *  do {
-       *    // Statements
-       * }
-       * while (booleanExpression);
-       */
+  public static void main(String[] args) {
+    /**
+     * The do-while-Loop - Syntax
+     *
+     *  do {
+     *    // Statements
+     * }
+     * while (booleanExpression);
+     */
 
-      int counter = 6;
+    int counter = 6;
 
-      do {
-         System.out.println("Do stuff 5 times... " + counter);
-         counter++;
-      }
-      while (counter < 6);
-   }
+    do {
+      System.out.println("Do stuff 5 times... " + counter);
+      counter++;
+    }
+    while (counter < 6);
+  }
 }

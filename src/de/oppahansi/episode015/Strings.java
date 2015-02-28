@@ -7,31 +7,31 @@ package de.oppahansi.episode015;
 
 public class Strings {
 
-   public static void main(String[] args) {
-      /**
-       * String - Zeichenkette
-       */
-      String helloWorld = "Hello, World!";
+  public static void main(String[] args) {
+    /**
+     * String - Zeichenkette
+     */
+    String helloWorld = "Hello, World!";
 
-      String vorname = "Oppa";
-      String nachname = "Hansi";
+    String vorname = "Oppa";
+    String nachname = "Hansi";
 
-      String vornameNachname = vorname + nachname;
+    String vornameNachname = vorname + nachname;
 
-      System.out.println(helloWorld);
-      System.out.println("Mein Name ist " + vorname + " " + nachname);
-      System.out.println(vornameNachname);
+    System.out.println(helloWorld);
+    System.out.println("Mein Name ist " + vorname + " " + nachname);
+    System.out.println(vornameNachname);
 
-      /**
-       * Uebung 1:
-       * Verändere das Programm so, dass "Hello, World Oppa Hansi Tutorial"
-       * ausgegeben wird. Achte auf die Leerzeichen. Es gibt mehrere Loesungen
-       * fuer diese Uebung. Probiere es einfach aus.
-       */
+    /**
+     * Uebung 1:
+     * Verändere das Programm so, dass "Hello, World Oppa Hansi Tutorial"
+     * ausgegeben wird. Achte auf die Leerzeichen. Es gibt mehrere Loesungen
+     * fuer diese Uebung. Probiere es einfach aus.
+     */
 
-      /**
-       * Uebung 2:
-       * Kann man in der Zeile 19 anstatt + einen - Operator verwenden?
-       */
-   }
+    /**
+     * Uebung 2:
+     * Kann man in der Zeile 19 anstatt + einen - Operator verwenden?
+     */
+  }
 }

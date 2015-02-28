@@ -7,25 +7,24 @@ package de.oppahansi.episode026;
 
 public class Modifier {
 
-   /**
-    * modifiers :
+  /**
+   * modifiers :
+   * <p>
+   * modifier    | class  |  package  | subclass  | project
+   * ------------------------------------------------------
+   * public      |   Y    |     Y     |    Y      |    Y
+   * protected   |   Y    |     Y     |    Y      |    N
+   * no modifier |   Y    |     Y     |    N      |    N
+   * private     |   Y    |     N     |    N      |    N
+   */
 
-     modifier    | class  |  package  | subclass  | project
-     ------------------------------------------------------
-     public      |   Y    |     Y     |    Y      |    Y
-     protected   |   Y    |     Y     |    Y      |    N
-     no modifier |   Y    |     Y     |    N      |    N
-     private     |   Y    |     N     |    N      |    N
+  public static void main(String[] args) {
+    TestModifier testModifier = new TestModifier();
 
-    */
+    System.out.println(testModifier.testPublic);
+    System.out.println(testModifier.testPackageModifier);
+    System.out.println(testModifier.getTestPrivate());
 
-   public static void main(String[] args) {
-      TestModifier testModifier = new TestModifier();
-
-      System.out.println(testModifier.testPublic);
-      System.out.println(testModifier.testPackageModifier);
-      System.out.println(testModifier.getTestPrivate());
-
-   }
+  }
 
 }

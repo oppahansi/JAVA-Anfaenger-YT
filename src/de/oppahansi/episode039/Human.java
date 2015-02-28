@@ -7,12 +7,12 @@ package de.oppahansi.episode039;
 
 public class Human extends Player {
 
-   public Human(final String name) {
-      super(name);
-   }
+  public Human(final String name) {
+    super(name);
+  }
 
-   @Override
-   public String getMovingAnimation() {
-      return "Normal und unauffällig!";
-   }
+  @Override
+  public String getMovingAnimation() {
+    return "Normal und unauffällig!";
+  }
 }

@@ -7,12 +7,12 @@ package de.oppahansi.episode040;
 
 public class NightElf extends Player {
 
-   public NightElf(final String name) {
-      super(name, new Bow());
-   }
+  public NightElf(final String name) {
+    super(name, new Bow());
+  }
 
-   @Override
-   public String getMovingAnimation() {
-      return "Anmutig und elegant!";
-   }
+  @Override
+  public String getMovingAnimation() {
+    return "Anmutig und elegant!";
+  }
 }
