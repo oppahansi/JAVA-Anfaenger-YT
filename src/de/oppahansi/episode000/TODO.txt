@@ -82,6 +82,9 @@ Bevorstehende Themen:
 - Datenstrukturen
    - LinkedList
    - HashMaps
+- Hashing
+- Comparator, Comparable Interface
+- Java 8 features, Stream, Lambda, Map, For-Each, filter
 - Datum
 - Exceptions
 - Dateien schreiben und lesen (.txt)
